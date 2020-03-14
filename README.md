@@ -26,9 +26,9 @@ or
 
 ```js
 module.exports = {
-  extends: ['ts-anaet'],
+  extends: ["ts-anaet"],
   parserOptions: {
-    project: './tsconfig.json'
+    project: "./tsconfig.json"
   }
 };
 ```
@@ -37,7 +37,7 @@ module.exports = {
 
 ```json
 "scripts": {
-  "lint": "eslint . --ext .js,.ts",
-  "lint:fix": "eslint . --fix"
+  "lint": "eslint . --ext .ts",
+  "lint:fix": "eslint . --fix --ext .ts"
 },
 ```
