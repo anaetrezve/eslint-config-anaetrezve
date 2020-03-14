@@ -1,11 +1,11 @@
 {
   "name": "eslint-config-ts-anaet",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Eslint and Prettier config for typescript and nodejs from Anaet Hossain Rezve",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint . --ext .js,.ts",
-    "lint:fix": "eslint --fix"
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint --fix --ext .ts"
   },
   "repository": {
     "type": "git",
