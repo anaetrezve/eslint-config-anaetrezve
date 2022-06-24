@@ -17,7 +17,7 @@ npx install-peerdeps --dev eslint-config-ts-anaet
 {
   "extends": ["ts-anaet"],
   "parserOptions": {
-    "project": "./tsconfig.json"
+    "project": ["tsconfig.json"]
   }
 }
 ```
@@ -28,7 +28,6 @@ or
 module.exports = {
   extends: ["ts-anaet"],
   parserOptions: {
-    tsconfigRootDir: __dirname,
     project: ["tsconfig.json"]
   }
 };
