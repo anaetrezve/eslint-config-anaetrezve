@@ -37,7 +37,7 @@ module.exports = {
 
 ```json
 "scripts": {
-  "lint": "eslint . --ext .ts",
-  "lint:fix": "eslint . --fix --ext .ts"
+  "lint": "eslint '*/**/*.{js,ts}' --quiet",
+  "lint:fix": "eslint '*/**/*.{js,ts}' --quiet --fix"
 },
 ```
