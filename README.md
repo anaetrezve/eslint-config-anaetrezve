@@ -28,7 +28,8 @@ or
 module.exports = {
   extends: ["ts-anaet"],
   parserOptions: {
-    project: "./tsconfig.json"
+    tsconfigRootDir: __dirname,
+    project: ["tsconfig.json"]
   }
 };
 ```

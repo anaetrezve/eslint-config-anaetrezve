@@ -9,11 +9,6 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 2022,
     sourceType: "module",
-    tsconfigRootDir: __dirname,
-    project: ["tsconfig.json"],
-    ecmaFeatures: {
-      jsx: true,
-    },
   },
   ignorePatterns: [".eslintrc*"],
   plugins: ["@typescript-eslint", "prettier", "import"],
