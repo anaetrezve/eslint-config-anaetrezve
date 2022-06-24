@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ts-anaet",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Eslint and Prettier config for typescript and nodejs from Anaet Hossain Rezve",
   "main": "index.js",
   "scripts": {
